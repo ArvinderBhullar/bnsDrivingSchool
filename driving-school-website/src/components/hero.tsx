@@ -65,7 +65,7 @@ const Hero = () => {
                     src="/WhatsAppButtonGreen.svg"
                     alt="Chat with us on WhatsApp"
                     width={200}
-                    height={50}
+                    height={42}
                     className="block dark:hidden"
                   />
                   {/* Dark mode image */}
@@ -73,7 +73,7 @@ const Hero = () => {
                     src="/WhatsAppButtonWhite.svg"
                     alt="Chat with us on WhatsApp"
                     width={200}
-                    height={50}
+                    height={42}
                     className="hidden dark:block"
                   />
                 </a>

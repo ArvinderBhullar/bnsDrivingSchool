@@ -1,9 +1,8 @@
 import Header from "@/components/header/header";
 import MapSection from "@/components/mapSection";
-import Footer from "@/components/Footer";
+import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import LearningBanner from "@/components/learningBanner";
-import PricingPlans from "@/components/pricingPlans";
 import Testimonials from "@/components/testimonials";
 import StepsToLicense from "@/components/stepsToLicense";
 import WhyChooseUs from "@/components/whyChooseUs";
@@ -21,15 +20,11 @@ export default function Home() {
 
         <LearningBanner/>
 
-        <WhyChooseUs/>
-        
         <StepsToLicense/>
 
+        <WhyChooseUs/>
+
         <Testimonials/>
-
-        {/* <PricingPlans/> */}
-
-        {/*Contact Form */}
 
         <MapSection />
 

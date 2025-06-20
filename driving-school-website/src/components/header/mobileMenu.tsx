@@ -1,4 +1,6 @@
 import { XMarkIcon } from "@heroicons/react/24/outline";
+import { businessInfo } from "@/config/businessInfo";
+
 
 interface mobileMenuProps {
     open: boolean;
@@ -23,9 +25,15 @@ export default function MobileMenu({ open, onClose }: mobileMenuProps) {
         </button>
       </div>
       <nav className="mt-6 space-y-4  font-medium">
-        <a href="#" className="block">Features</a>
-        <a href="#" className="block">Pricing</a>
-        <a href="#" className="block">Contact</a>
+        <a href={businessInfo.phoneUrl} className="block">
+          Call
+        </a>
+        <a href={businessInfo.emailUrl} className="block">
+          Email
+        </a>
+        <a href={businessInfo.whatsappUrl} className="block" target="_blank" rel="noopener noreferrer">
+          Whatsapp
+        </a>
       </nav>
     </div>
   );

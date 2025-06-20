@@ -2,9 +2,9 @@ import {businessInfo} from "@/config/businessInfo";
 
 const MapSection = () => {
     return (
-        <section className="py-16">
+        <section className="py-16 border-t border-gray-200 dark:border-gray-800">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-semibold text-gray-900 dark:text-white mb-6">Visit Us</h2>
+          <h2 className="text-4xl font-semibold tracking-tight text-pretty text-center text-gray-900 dark:text-white mb-16">Visit Us</h2>
             <div className="relative w-full h-[450px] overflow-hidden rounded-xl shadow-md">
               <iframe
                 src={businessInfo.googleBusinessUrl}

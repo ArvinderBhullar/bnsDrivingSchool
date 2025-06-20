@@ -18,11 +18,15 @@ const Footer = () => {
           <div className="space-y-4 text-gray-700 dark:text-gray-200">
             <div className="flex items-start gap-3">
               <EnvelopeIcon className="h-6 w-6" />
-              <span>{businessInfo.email}</span>
+              <a href={`mailto:${businessInfo.email}`} className="hover:underline">
+                {businessInfo.email}
+              </a>
             </div>
             <div className="flex items-start gap-3">
               <PhoneIcon className="h-6 w-6" />
-              <span>{businessInfo.phone}</span>
+              <a href={`tel:${businessInfo.phone}`} className="hover:underline">
+                {businessInfo.phone}
+              </a>
             </div>
             <div className="flex items-start gap-3">
               <MapPinIcon className="h-6 w-6" />

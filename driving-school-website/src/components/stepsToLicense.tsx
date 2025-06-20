@@ -57,20 +57,20 @@ const StepsToLicense = () => {
         {/* Text Content */}
         <div className="lg:pr-8">
           <div className="lg:max-w-lg">
-            <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
+            <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty sm:text-5xl">
               Steps to Get your Driving Licence with us
             </p>
-            <p className="mt-6 text-lg/8 text-gray-600">
+            <p className="mt-6 text-lg/8 text-gray-700 dark:text-gray-200">
               We make learning to drive simple. Our three-step process guides you from lesson booking to road test success.
             </p>
 
             {/* Feature List */}
-            <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
+            <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-700 dark:text-gray-200 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <feature.icon className="absolute left-0 top-1 h-6 w-6 text-stone-600 dark:text-stone-300" />
-                    <dt className="inline font-semibold text-gray-900">
-                      {feature.name}
+                    <dt className="inline font-semibold text-gray-900 dark:text-gray-50">
+                      {feature.name}: 
                     </dt>{' '}
                     <dd className="inline">{feature.description}</dd>
                   </div>
