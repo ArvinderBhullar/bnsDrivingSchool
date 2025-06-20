@@ -1,4 +1,5 @@
 import {CalendarDaysIcon, UserGroupIcon, CheckBadgeIcon } from '@heroicons/react/20/solid';
+import Image from "next/image";
 
 const features = [
   {
@@ -81,7 +82,7 @@ const StepsToLicense = () => {
 
         {/* Image */}
         <div className="lg:sticky lg:top-4 lg:row-span-2">
-          <img
+          <Image
             alt="Driving session screenshot"
             src="./rearView.jpeg"
             className="w-full max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 dark:ring-gray-700 sm:w-[36rem]"

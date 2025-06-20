@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const LearningBanner = () => {
   return (
     <section className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
@@ -7,7 +9,7 @@ const LearningBanner = () => {
         {/* Bottom fade: blends into bg-white / dark:bg-gray-950 */}
         <div className="absolute bottom-0 left-0 right-0 h-32 z-10 bg-gradient-to-t from-white dark:from-gray-950 to-transparent" />
 
-      <img
+      <Image
         alt="Side view of car used for training"
         src="./sideView.jpeg"
         loading="lazy"
