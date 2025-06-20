@@ -83,7 +83,7 @@ const StepsToLicense = () => {
         <div className="lg:sticky lg:top-4 lg:row-span-2">
           <img
             alt="Driving session screenshot"
-            src="/rearView.jpeg"
+            src="./rearView.jpeg"
             className="w-full max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 dark:ring-gray-700 sm:w-[36rem]"
           />
         </div>

@@ -9,7 +9,7 @@ const LearningBanner = () => {
 
       <img
         alt="Side view of car used for training"
-        src="/sideView.jpeg"
+        src="./sideView.jpeg"
         loading="lazy"
         className="absolute inset-0 -z-10 size-full object-cover object-right md:object-center"
       />
