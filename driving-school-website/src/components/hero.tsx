@@ -62,7 +62,7 @@ const Hero = () => {
                 <a href={businessInfo.whatsappUrl} target="_blank" rel="noopener noreferrer">
                   {/* Light mode image */}
                   <Image
-                    src="/WhatsAppButtonGreen.svg"
+                    src="./WhatsAppButtonGreen.svg"
                     alt="Chat with us on WhatsApp"
                     width={200}
                     height={42}
@@ -70,7 +70,7 @@ const Hero = () => {
                   />
                   {/* Dark mode image */}
                   <Image
-                    src="/WhatsAppButtonWhite.svg"
+                    src="./WhatsAppButtonWhite.svg"
                     alt="Chat with us on WhatsApp"
                     width={200}
                     height={42}
