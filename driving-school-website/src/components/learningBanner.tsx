@@ -13,7 +13,8 @@ const LearningBanner = () => {
         alt="Side view of car used for training"
         src="./sideView.jpeg"
         loading="lazy"
-        className="absolute inset-0 -z-10 size-full object-cover object-right md:object-center"
+        fill={true}
+        className="absolute inset-0 -z-10 object-cover object-right md:object-center"
       />
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">

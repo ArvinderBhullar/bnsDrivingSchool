@@ -81,11 +81,15 @@ const StepsToLicense = () => {
         </div>
 
         {/* Image */}
-        <div className="lg:sticky lg:top-4 lg:row-span-2">
+        <div className="relative lg:sticky lg:top-4 lg:row-span-2">
           <Image
             alt="Driving session screenshot"
             src="./rearView.jpeg"
-            className="w-full max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 dark:ring-gray-700 sm:w-[36rem]"
+            // fill={true}
+            width={500}
+            height={500}
+            loading="lazy"
+            className="w-full max-w-none object-cover rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 dark:ring-gray-700 sm:w-[36rem]"
           />
         </div>
       </div>

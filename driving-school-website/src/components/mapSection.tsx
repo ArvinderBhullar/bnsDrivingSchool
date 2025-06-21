@@ -8,6 +8,7 @@ const MapSection = () => {
             <div className="relative w-full h-[450px] overflow-hidden rounded-xl shadow-md">
               <iframe
                 src={businessInfo.googleBusinessUrl}
+                title="Google Maps location of BNS Driving School"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
