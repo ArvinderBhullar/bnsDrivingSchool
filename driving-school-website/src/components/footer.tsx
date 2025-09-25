@@ -4,8 +4,23 @@ import { EnvelopeIcon, PhoneIcon, MapPinIcon } from "@heroicons/react/24/outline
 const Footer = () => {
   return (
     <footer className="border-t border-gray-200 dark:border-gray-800 mt-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
           
+          {/* BBB Seal */}
+          <div className="relative w-full overflow-hidden rounded-xl shadow-md">
+            <iframe 
+              src={businessInfo.bbbSealUrl}
+              title="Better Business Bureau Seal"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="w-full h-full"
+              />
+          </div>
+
           {/* Mission Statement */}
           <div>
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Our Mission</h2>
@@ -33,6 +48,8 @@ const Footer = () => {
               <span>Serving Surrey and Vancouver, BC</span>
             </div>
           </div>
+
+          
           
         </div>
       </footer>
