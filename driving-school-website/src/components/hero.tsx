@@ -77,6 +77,19 @@ const Hero = () => {
                     className="hidden dark:block"
                   />
                 </a>
+
+                {/* Policy & Pricing link */}
+                <a
+                  href="./policy/PolicyAndPricing.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 rounded-md bg-sky-600 
+                      px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs 
+                      hover:bg-sky-500 focus-visible:outline-2 
+                      focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+                >
+                  See Policy & Pricing
+                </a>
                 
               </div>
             </div>

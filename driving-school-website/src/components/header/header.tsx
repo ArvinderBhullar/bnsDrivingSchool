@@ -13,7 +13,7 @@ export default function Header() {
         <div className="text-xl font-bold">{businessInfo.name}</div>
 
         <DesktopNav />
-
+      {/*
         <button
           type="button"
           className="lg:hidden p-2 text-gray-700 dark:text-gray-200"
@@ -22,6 +22,7 @@ export default function Header() {
         >
           <Bars3Icon className="h-6 w-6" />
         </button>
+      */}
       </div>
 
       <MobileMenu open={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)} />

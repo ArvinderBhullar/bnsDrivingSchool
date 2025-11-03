@@ -31,6 +31,17 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div className="space-y-4 text-gray-700 dark:text-gray-200">
+            <div className="flex items-center gap-8 mb-4">
+              <a href={businessInfo.facebookUrl} target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <img src="./FacebookIcon.svg" alt="Facebook" className="h-6 w-6 hover:opacity-80 transition-opacity"/>
+              </a>
+              <a href={businessInfo.instagramUrl} target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <img src="./InstagramIcon.svg" alt="Instagram" className="h-6 w-6 hover:opacity-80 transition-opacity"/>
+              </a>
+              <a href={businessInfo.googleMapsUrl} target="_blank" rel="noopener noreferrer" aria-label="Google Maps">
+                <img src="./GoogleMapsIcon.svg" alt="Google Maps" className="h-6 w-6 hover:opacity-80 transition-opacity"/>
+              </a>
+            </div>
             <div className="flex items-start gap-3">
               <EnvelopeIcon className="h-6 w-6" />
               <a href={`mailto:${businessInfo.email}`} className="hover:underline">

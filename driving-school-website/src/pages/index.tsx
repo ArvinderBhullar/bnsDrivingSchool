@@ -6,6 +6,7 @@ import LearningBanner from "@/components/learningBanner";
 import Testimonials from "@/components/testimonials";
 import StepsToLicense from "@/components/stepsToLicense";
 import WhyChooseUs from "@/components/whyChooseUs";
+import CertificateSection from "@/components/certificateSection";
 
 
 export default function Home() {
@@ -25,6 +26,8 @@ export default function Home() {
         <WhyChooseUs/>
 
         <Testimonials/>
+
+        <CertificateSection/>
 
         <MapSection />
 
